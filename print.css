@@ -1,0 +1,77 @@
+/* Print styles */
+
+body {
+    font-family: "Times New Roman", serif;
+    font-size: 10pt;
+    margin: 1rem;
+    line-height: 1.3;
+    background: white;
+    color: black;
+}
+
+header {
+    color: darkcyan;    
+    padding: 0.5rem;          
+    border: 2px solid darkcyan; 
+}
+
+address p {
+    color: black;
+}
+
+figure {
+    display: none;
+}
+
+h1 {
+    margin-bottom: 0.25rem;
+}
+
+h2 {
+    color: darkslategray;
+    border-bottom: 1px solid #ccc;
+}
+
+address p, 
+article p,
+article h3, 
+article li {
+    margin: 0;
+}
+
+article p,
+article li, 
+section li,
+section p {
+    line-height: 1.25;
+}
+
+section {
+    margin-bottom: 0.5rem;
+}
+
+.date {
+    font-style: italic;
+    color: gray;
+}
+
+ul {
+    list-style-type: square;
+    padding-left: 1.25rem;
+}
+
+a {
+    color: black;
+}
+
+.print-only {
+    display: block;
+    margin-top: 1rem;
+}
+
+.print-only p {
+    color: maroon;     
+    font-weight: bold; 
+}
+
+

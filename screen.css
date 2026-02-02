@@ -1,0 +1,89 @@
+/* Base screen styles */
+
+body {
+    font-family: "Times New Roman", serif;
+    font-size: 10pt;
+    margin: 2rem;
+    line-height: 1.5;
+    background: lightcyan;
+    color: black;
+}
+
+/* Header layout with top-right image */
+.header-flex {
+    display: flex;                    /* horizontal layout */
+    justify-content: space-between;   /* text left, image right */
+    align-items: flex-start;          /* top-align text with image */ 
+    padding-bottom: 0rem;
+    margin-bottom: 0rem;
+}
+
+.header-text {
+    max-width: calc(100% - 160px);   /* leaves room for image */
+}
+
+header.header-flex {
+    background-color: #84c786;
+    color: black;    
+    padding: 0.5rem;          
+    border: 2px solid black; 
+}
+
+figure {
+    max-width: 125px;         
+    margin: 0;
+}
+
+figure img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;   
+}
+
+h1 {
+    margin-bottom: 0.25rem;
+}
+
+h2 {
+    color: darkgreen;
+    border-bottom: 1px solid darkgreen;
+}
+
+.header-text h1,
+.header-text address p,
+address p,
+article h3,
+article p,
+article li {
+    margin: 0;
+}
+
+.header-text address p,
+article p,
+article li,
+section li, 
+section p {
+    line-height: 1.25;
+}
+
+section {
+    margin-bottom: 1.5rem;
+}
+
+.date {
+    font-style: italic;
+    color: gray;
+}
+
+ul {
+    list-style-type: square;
+    padding-left: 1.25rem;
+}
+
+a {
+    color: blue;
+}
+
+.print-only {
+    display: none;
+}
